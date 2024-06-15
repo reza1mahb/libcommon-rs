@@ -1,6 +1,6 @@
 dist: bionic
 language: minimal
-sudo: false
+sudo: true
 # Default `language: rust` has problems on nightly with rustfmt support
 
 # only cache cargo subcommand binaries and .so libs
